@@ -70,3 +70,8 @@ nav ul li a:hover {
     color: #00000098;
     border: 1px solid #ffffff;
 }
+
+.sign-in:hover {
+    background: #ffffff;
+    color: #000;
+}
