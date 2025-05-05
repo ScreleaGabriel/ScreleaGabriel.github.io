@@ -75,3 +75,9 @@ nav ul li a:hover {
     background: #ffffff;
     color: #000;
 }
+
+.sign-up {
+    background: #ececec;
+    color: rgb(0, 0, 0);
+    border: none;
+}
