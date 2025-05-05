@@ -354,5 +354,10 @@ footer {
   .didascalia {
     margin-top: 12px;
     font-size: 1rem;
-    color: #ccc;
+    color: #ffffff;
+    background-color : #728c67
+    padding: 12px 20 px;
+    border-radius: 10 px;
+    display: inline;
+    max-width: 90%
   }
