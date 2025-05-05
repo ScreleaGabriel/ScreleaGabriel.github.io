@@ -244,3 +244,33 @@ footer {
     object-fit: cover;
     z-index: -1;
 }
+
+.intro-testo {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box-intro {
+    background-color: #98A886;
+    padding: 40px;
+    border-radius: 16px;
+    max-width: 90vw; /* oppure un valore fisso come 1400px */
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin: 40px auto;
+  }
+  
+  .box-intro h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .box-intro p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
