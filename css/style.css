@@ -317,3 +317,42 @@ footer {
     font-size: 15px;
     color: #e0e0e0;
   }
+.bottoni-anni {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .anno-btn {
+    background-color: #8aa57e;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .anno-btn:hover {
+    background-color: #728c67;
+  }
+  
+  .immagine-con-didascalia {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+  
+  .immagine-con-didascalia img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  }
+  
+  .didascalia {
+    margin-top: 12px;
+    font-size: 1rem;
+    color: #ccc;
+  }
