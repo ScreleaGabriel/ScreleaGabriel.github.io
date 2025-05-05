@@ -172,3 +172,10 @@ nav ul li a:hover {
 .next {
     right: 10px;
 }
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
