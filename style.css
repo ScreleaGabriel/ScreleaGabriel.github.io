@@ -85,3 +85,12 @@ nav ul li a:hover {
 .sign-up:hover {
     background: #48b4f34d;
 }
+
+.hero .overlay {
+    position: absolute;
+    top: 20%; 
+    left: 8%;
+    background: none; 
+    padding: 0;
+    max-width: 45%;
+}
