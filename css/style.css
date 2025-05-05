@@ -276,26 +276,44 @@ footer {
   }
 .contenuto-triplo {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 40px;
-    background-color: #6e8162;
+    margin: 0 2% 80px;
+    gap: 2%;
   }
   
-  .box-immagine {
-    max-width: 30%;
-    text-align: center;
+  .box-testo,
+  .box-immagine,
+  .box-riforestazione {
+    background-color: #98A886;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   }
   
   .box-immagine img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
   }
   
-  figcaption {
-    margin-top: 8px;
-    font-size: 0.95rem;
-    color: #f1f1f1;
+  .box-riforestazione ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  
+  .box-riforestazione ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #f0f0f0;
+  }
+  
+  .box-riforestazione p {
+    text-align: left;
+    font-size: 15px;
+    color: #e0e0e0;
   }
