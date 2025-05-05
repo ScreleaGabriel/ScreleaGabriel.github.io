@@ -102,3 +102,11 @@ nav ul li a:hover {
     line-height: 1.1;
     color: white;
 }
+.hero p {
+    font-size: 22px;
+    text-align: left;
+    max-width: 500px;
+    margin-top: 20px;
+    color: white;
+    opacity: 0.9;
+}
