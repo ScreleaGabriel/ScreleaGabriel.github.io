@@ -189,3 +189,36 @@ footer {
     margin-right: 2%;
     gap: 3%;
 }
+.box-testo, .box-immagine {
+    background-color: #98a886ee;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    flex: 1;
+    min-width: 0;
+}
+
+.box-testo {
+    max-width: 48%;
+    color: #d9d9d9;
+    text-align: left;
+}
+
+.box-testo h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.box-immagine {
+    max-width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box-immagine img {
+    max-width: 100%;
+    border-end-end-radius:; 
+}
