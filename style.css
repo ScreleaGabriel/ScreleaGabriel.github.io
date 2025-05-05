@@ -94,3 +94,11 @@ nav ul li a:hover {
     padding: 0;
     max-width: 45%;
 }
+
+.hero h1 {
+    font-size: 72px; 
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.1;
+    color: white;
+}
