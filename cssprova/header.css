@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 95%; /* Larghezza ridotta per contenuto centrato */
+    left: 50%;
+    background-color: rgba(40, 40, 40, 0.85);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-50%); /* Centratura perfetta */
+}
+
+.header--hidden {
+    transform: translate(-50%,-100%);
+}
+
+.logo {
+    font-size: 28px; /* Dimensione aumentata */
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+nav ul {
+    display: flex;
+    gap: 30px; /* Spaziatura aumentata */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: 'Inter', sans-serif; /* Font alternativo */
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 1px; /* Spaziatura tra lettere */
+    text-transform: uppercase; /* Tutto maiuscolo */
+    text-shadow: 0 2px 3px rgba(0,0,0,0.3);
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f39c12;
+    transition: width 0.3s;
+}
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.1); /* Effetto hover */
+    transform: translateY(-2px); /* Leggera elevazione */
+}
+nav ul li a:hover::after {
+    width: 100%;
+}
+.nav-buttons {
+    margin-right: 1%;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 5px;
+    transition: backgr
